@@ -140,3 +140,8 @@ dmypy.json
 
 # MacOS system file
 .DS_Store
+# OpenResearch local artifacts
+.openresearch/runs/
+artifacts/
+data/
+datasets/
