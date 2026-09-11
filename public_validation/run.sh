@@ -60,7 +60,7 @@ fi
 
 # --- environment identity (single-line JSON on stdout for the evidence bundle) ---
 ENV_IDENTITY_JSON=$("$PY" - <<'PYEOF'
-import hashlib, json, platform, subprocess, sys
+import hashlib, json, pathlib, platform, subprocess, sys
 identity = {
     "hostname": platform.node(),
     "os_release": "",
